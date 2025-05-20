@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TutorConnect</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f2f2f2; }
+    header { background-color: #2c3e50; color: white; padding: 1em 2em; text-align: center; }
+    nav a { color: white; margin: 0 1em; text-decoration: none; }
+    section { padding: 2em; background: white; margin: 1em; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    footer { text-align: center; padding: 1em; background: #2c3e50; color: white; }
+    .tutor { border: 1px solid #ccc; padding: 1em; border-radius: 6px; margin-bottom: 1em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TutorConnect</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#students">Students</a>
+      <a href="#tutors">Tutors</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to TutorConnect</h2>
+    <p>Your hub for finding and connecting with tutors online. Whether you need help with math, science, or English—we’ve got you covered!</p>
+  </section>
+
+  <section id="students">
+    <h2>Students</h2>
+    <p>Find a tutor by browsing our available profiles below or request help on a topic.</p>
+    <div class="tutor">
+      <h3>Jane Doe</h3>
+      <p><strong>Subjects:</strong> Math, Physics</p>
+      <p><strong>Availability:</strong> Weekdays 5-8 PM</p>
+    </div>
+    <div class="tutor">
+      <h3>John Smith</h3>
+      <p><strong>Subjects:</strong> English, History</p>
+      <p><strong>Availability:</strong> Weekends 10 AM - 2 PM</p>
+    </div>
+  </section>
+
+  <section id="tutors">
+    <h2>Become a Tutor</h2>
+    <p>If you’re a qualified tutor and want to join our platform, send us your details via the contact form.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TutorConnect. All rights reserved.</p>
+  </footer>
+</body>
+</html>
